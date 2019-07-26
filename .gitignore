@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/CareebizExam/bin/Debug/netcoreapp2.2
+/CareebizExam/obj
+/CareebizExam/PDF

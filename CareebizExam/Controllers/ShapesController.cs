@@ -116,7 +116,7 @@ namespace CareebizExam.Controllers
 
 
         //[HttpGet(Name = "CreatePDF")]
-        [Route("/api/Shapes/CreatePDF/{ids?}")]
+        [Route("/api/polymap/export/{ids?}")]
         public IActionResult CreatePDF([FromQuery]int?[] ids)
         {
             var response = new ListResponse<ShapesDTO>();
